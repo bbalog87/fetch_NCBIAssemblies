@@ -14,12 +14,12 @@ for value in $(cat GenbankAcc.txt); do
 
 ## Retrieve Biosample (BS) accesion for a given genome assembly's accession_Nr in GenBank
 BS=$(esearch -db assembly -query "$value" |efetch -format docsum | grep BioSampleAccn | cut -f2 -d ">" |cut -f1 -d "<")
-esearch -db biosample -query "$BS" | efetch -format native | grep location | cut -f2 -d "=" >> countries.txt
+esearch -db biosample -query "$BS" | efetch -format native | grep location | cut -f2 -d "=" >> locations.txt
 
 done
 
 ## Cleaning: remove ":", and "|"
-sed 's/\"//g' countries.txt | sed 's/:/,/g'|  sed 's/|/,/g' > countries_genomes.txt 
+sed 's/\"//g' locations.txt | sed 's/:/,/g'|  sed 's/|/,/g' > countries_genomes.txt 
 
 ```
 
