@@ -1,6 +1,6 @@
 ## Accessing NCBI’s Entrez databases
 
-Accessing genome assemblies and info using NCBI's Entrez Direct command line utilities.
+Accessing genome assemblies and info using NCBI's Entrez Direct (Edirect) command line utilities.
 
 ```bash 
 #!/bin/bash
