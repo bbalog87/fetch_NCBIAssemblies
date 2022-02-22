@@ -25,7 +25,7 @@ sed 's/\"//g' countries.txt | sed 's/:/,/g'|  sed 's/|/,/g' > countries_genomes.
 
 ### Comments:
 
- 1- The geographic location of DNA sample is not consistent in NCBI  Biosamples entries. Some are missing, other have only geographic coordinates.
+ 1- The geographic location of DNA samples is not consistent in NCBI  Biosamples entries. Some are missing, other have only geographic coordinates.
 
 2-  Another issue was that, instead of country names, we had lake or river names.
    For example, the majority of genomes were sampled in Lake Tanganyika. Which country (ies) should be associated with that lake? It could be Burundi, DR Congo, Tanzania, or Zambia. Therefore I have created a list of "miscellaneous" locations including all places which are not country names.
