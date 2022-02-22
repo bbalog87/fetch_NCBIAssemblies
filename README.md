@@ -87,7 +87,7 @@ write.csv(speciesByCountry,"speciesByCountry_Africa.csv",
           
 ```
 
-### Final list of species aggregated by countries.
+### Final list of species aggregated by African countries or locations.
 
 | Country                       | Count |
 |-------------------------------|-------|
