@@ -89,7 +89,7 @@ write.csv(speciesByCountry,"speciesByCountry_Africa.csv",
 
 ### Final list of species aggregated by countries.
 
-| Country                       | Total |
+| Country                       | Count |
 |-------------------------------|-------|
 | Algeria                       | 1     |
 | Angola                        | 1     |
