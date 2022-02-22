@@ -1,6 +1,6 @@
 ## Accessing NCBI’s Entrez databases
 
-Accessing genome assemblies and info using NCBI's Entrez Direct (EDirect) command line utilities.
+Accessing genome assemblies and info using NCBI's Entrez Direct (EDirect) command-line utilities. I am interested in vertebrates genome assemblies whose DNA was sampled in Africa (BioSamples geographic location).
 
 ```bash 
 #!/bin/bash
