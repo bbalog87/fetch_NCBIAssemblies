@@ -87,7 +87,7 @@ write.csv(speciesByCountry,"speciesByCountry_Africa.csv",
           
 ```
 
-### Finbla list of species agreggated bz countries.
+### Final list of species agreggated bz countries.
 
 | Country                       | Total |
 |-------------------------------|-------|
