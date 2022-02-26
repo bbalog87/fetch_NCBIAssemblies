@@ -76,7 +76,7 @@ African_speciesNCBI<- Countries.Continents %>%
 
 
 ## group by country
-speciesByCountry<-African_speciesNCNBI %>% group_by(Country) %>%                           
+speciesByCountry<-African_speciesNCBI %>% group_by(Country) %>%                           
   summarise(Total = length(Country)) %>% arrange(Country)
 str(speciesByCountry)
 head(speciesByCountry)
