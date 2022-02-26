@@ -66,7 +66,7 @@ misc_locations.df<-countriesNCBI[countriesNCBI$Country %in% misc_locations,] %>%
 
 
 ## Filtering African countries 
-African_speciesNCNBI<- Countries.Continents %>% 
+African_speciesNCBI<- Countries.Continents %>% 
   filter(Continent=="Africa") %>%
   full_join(y=countriesNCBI,by="Country") %>% 
   filter(!is.na(Continent))  %>%
